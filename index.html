@@ -1,0 +1,656 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grade 1</title>
+    <meta name="description" content="Fullscreen Pageflip Layout with BookBlock" />
+    <meta name="keywords" content="fullscreen pageflip, booklet, layout, bookblock, jquery plugin, flipboard layout, sidebar menu" />
+    <meta name="author" content="Codrops" />
+    <link rel="shortcut icon" href="../favicon.ico" />
+    <link href="css/jquery-ui.min.css" rel="stylesheet" />
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <script src="js/jquery-3.3.1.min.js"></script>	
+    <script src="js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/jquery.jscrollpane.custom.css" />
+    <link rel="stylesheet" type="text/css" href="css/bookblock.css" />
+    <link rel="stylesheet" type="text/css" href="css/custom.css" />
+    <script src="js/modernizr.custom.79639.js"></script>
+    <script src="js/video.js"></script>
+  </head>
+  <body>
+    <div id="container" class="container">
+    <div class="menu-panel">
+      <h3>Table of Contents</h3>
+      <ul id="menu-toc" class="menu-toc">
+        <li class="menu-toc-current"><a href="#item1">Book Cover</a></li>
+        <li><a href="#item2">Connaissons la France</a></li>
+        <li><a href="#item3">Famous French people and events </a></li>
+        <li><a href="#item4">Keywords and meaning</a></li>
+        <li><a href="#item5">Exercises</a></li>
+      </ul>
+    </div>
+    <div class="bb-custom-wrapper">
+      <div id="bb-bookblock" class="bb-bookblock">
+        <!-- Page 1  -->
+        <div class="bb-item" id="item1">
+          <img src="images/S1_1.jpg" id="cover" class="img-responsive" />  
+        </div>
+		<!--Chapter_1 -->
+        <!-- Page 1 & 2 -->
+        <div class="bb-item" id="item2">
+          <div class="content">
+            <div class="scroller">
+              <div class="row">
+                <div class="col-sm-6 chap_common">
+                  <div class="row">
+                    <div  class="col-sm-12">
+                      <img id="headerImage" src="images/ch1.png" class="img-responsive" />
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-sm-12 video_link">
+                      <p id="item3">Lets' see video about the Chapter:<img class="animFrame animated slideInLeft" id="video_logo" src="images/camera+video+icon-1320184411724820637.png" onclick="lightbox_open();"/></p>
+                      <div id="light">
+                        <a class="boxclose" id="boxclose" onclick="lightbox_close();"></a>
+                        <video id="PopUpVideo" width="600vw" controls>
+                          <source src="assets/CH1.mp4" type="video/mp4" />
+                        </video>
+                      </div>
+                      <div id="fade" onClick="lightbox_close();"></div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div id="" class="col-sm-12 activity">
+                      <h3><b>Let’s learn about France!</b></h3>
+                      <span>Quelques symboles nationaux</span><br>
+                     <!--  <span>(Some national symbols)</span> -->
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div id="" class="col-sm-12 desc">
+                       <table class="table table-dark">
+							<!-- <thead>
+								<tr>
+								<th scope="col">#</th>
+								<th scope="col">First</th>
+								</tr>
+							</thead> -->
+							<tbody>
+							<thead>
+								<tr>
+								<th scope="col"></th>
+								<th scope="col">(Some national symbols)</th>
+								</tr>
+							</thead>
+								<tr>
+								<th scope="row" class="table_text">Le drapeau français</th>
+								<td><img id="headerImage" src="images/page11.png" class="img-responsive" /></td>
+								</tr>
+								<tr>
+								<th scope="row" class="table_text">La tour Eiffel</th>
+								<td><img id="headerImage" src="images/page12.png" class="img-responsive" /></td>
+								</tr>
+								<tr>
+								<th scope="row" class="table_text">Le musée du Louvre</th>
+								<td><img id="headerImage" src="images/page13.png" class="img-responsive" /></td>
+								</tr>
+								<tr>
+								<th scope="row" class="table_text">L’arc de Triomphe</th>
+								<td><img id="headerImage" src="images/page14.png" class="img-responsive" /></td>
+								</tr>
+								<tr>
+								<th scope="row" class="table_text">Les Alpes</th>
+								<td><img id="headerImage" src="images/page15.png" class="img-responsive" /></td>
+								</tr>
+								<tr>
+								<th scope="row" class="table_text">Le coq gaulois</th>
+								<td><img id="headerImage" src="images/page16.png" class="img-responsive" /></td>
+								</tr>
+							</tbody>
+						</table>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-6 chap_common">
+                  <div class="row">
+                    <div id="living" class="col-sm-12">
+                      <div class="row">
+                       <div class="col-sm-12">
+                          <table class="table table-dark">
+							<thead>
+								<tr>
+								<!-- <th scope="col"></th>
+								<th scope="col">Let’s look at some famous French food</th> -->
+								<p style="color: blue; font-size: 2em; font-weight: bold; text-align: center;">Let’s look at some famous French food</p>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+								<th scope="row" class="table_text">Fromage</th>
+								<td><img id="headerImage" src="images/page21.png" class="img-responsive" /></td>
+								</tr>
+								<tr>
+								<th scope="row" class="table_text">Baguette</th>
+								<td><img id="headerImage" src="images/page22.png" class="img-responsive" /></td>
+								</tr>
+								<tr>
+								<th scope="row" class="table_text">Crêpe</th>
+								<td><img id="headerImage" src="images/page23.png" class="img-responsive" /></td>
+								</tr>
+								<tr>
+								<th scope="row" class="table_text">Vin</th>
+								<td><img id="headerImage" src="images/page24.png" class="img-responsive" /></td>
+								</tr>
+								<tr>
+								<th scope="row" class="table_text">Escargots</th>
+								<td><img id="headerImage" src="images/page25.png" class="img-responsive" /></td>
+								</tr>
+								<tr>
+								<th scope="row" class="table_text">Foie gras</th>
+								<td><img id="headerImage" src="images/page26.png" class="img-responsive" /></td>
+								</tr>
+							</tbody>
+						</table><br/><br/>
+                        </div>
+						 <div class="col-sm-12">
+                          <table class="table table-dark" style="top: 5vmin; color: ">
+							<thead>
+								<tr>
+								 <th scope="col" style="font-size: 2em; width: 29.5vmin; background-color: aqua;">Les mots clés</th>
+								<th scope="col" style="font-size: 2em; text-align: center; background-color: #f56276de;">Key words</th> 
+								<!-- <p style="color: blue; font-size: 2em; font-weight: bold; text-align: center;">Let’s look at some famous French food</p> -->
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+								<th scope="row" class="table_text" style="background-color: aqua;">Le drapeau français</th>
+								<td scope="row" class="table_text" style="background-color: #f56276de;">The French flag</td>
+								<!-- <td><img id="headerImage" src="images/page21.png" class="img-responsive" /></td> -->
+								</tr>
+								<tr>
+								<th scope="row" class="table_text" style="background-color: aqua;">La tour Eiffel</th>
+								<td scope="row" class="table_text" style="background-color: #f56276de;">The Eiffel Tower</td>
+								</tr>
+								<tr>
+								<th scope="row" class="table_text" style="background-color: aqua;">Musée du Louvre</th>
+								<td scope="row" class="table_text" style="background-color: #f56276de;">The Louvre Museum</td>
+								</tr>
+								<tr>
+								<th scope="row" class="table_text" style="background-color: aqua;">L’arc de Triomphe</th>
+								<td scope="row" class="table_text" style="background-color: #f56276de;">A national monument in Paris to honour soldiers who died for France</td>
+								</tr>
+								<tr>
+								<th scope="row" class="table_text" style="background-color: aqua;">Les Alpes</th>
+								<td scope="row" class="table_text" style="background-color: #f56276de;">The Alps mountains</td>
+								</tr>
+								<tr>
+								<th scope="row" class="table_text" style="background-color: aqua;">Le coq gaulois</th>
+								<td scope="row" class="table_text" style="background-color: #f56276de;">The Gallic rooster, the image of a crowing rooster, is one of the unofficial symbols of France</td>
+								</tr>
+							</tbody>
+						</table>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                 </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Page 3 & 4  -->
+        <div class="bb-item" id="item3">
+          <div class="content">
+            <div class="scroller">
+              <div class="row">
+                <div class="col-sm-6 chap_common">
+                   <table class="table table-dark">
+							<thead>
+								<tr>
+								<!-- <th scope="col"></th>
+								<th scope="col">Let’s look at some famous French food</th> -->
+								<p style="color: blue; font-size: 2em; font-weight: bold; text-align: center;">Here are some very famous French people</p>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+								<th scope="row" class="table_text">Jeanne d’Arc</th>
+								<td><img id="headerImage" src="images/page27.png" class="img-responsive" /></td>
+								</tr>
+								<tr>
+								<th scope="row" class="table_text">Louis XIV</th>
+								<td><img id="headerImage" src="images/page28.png" class="img-responsive" /></td>
+								</tr>
+								<tr>
+								<th scope="row" class="table_text">Napoléon Bonaparte</th>
+								<td><img id="headerImage" src="images/page29.png" class="img-responsive" /></td>
+								</tr>
+								<tr>
+								<th scope="row" class="table_text">Victor Hugo</th>
+								<td><img id="headerImage" src="images/page210.png" class="img-responsive" /></td>
+								</tr>
+								<tr>
+								<th scope="row" class="table_text">Coco Chanel</th>
+								<td><img id="headerImage" src="images/page211.png" class="img-responsive" /></td>
+								</tr>
+								<tr>
+								<th scope="row" class="table_text">Brigitte Bardot</th>
+								<td><img id="headerImage" src="images/page212.png" class="img-responsive" /></td>
+								</tr>
+							</tbody>
+						</table>
+                  </div>
+                <!-- </div> -->
+                <div class="col-sm-6 chap_common">
+                  <div class="row">
+                    <div id="" class="col-sm-12">
+					 <table class="table table-dark">
+                      <thead>
+								<tr>
+								<!-- <th scope="col"></th>
+								<th scope="col">Let’s look at some famous French food</th> -->
+								<p style="color: blue; font-size: 2em; font-weight: bold; text-align: center;">Let’s also look at some important French events</p>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+								<th scope="row" class="table_text">Le quatorze juillet</th>
+								<td><img id="headerImage" src="images/page31.png" class="img-responsive" /></td>
+								</tr>
+								<tr>
+								<th scope="row" class="table_text">Mardi gras</th>
+								<td><img id="headerImage" src="images/page32.png" class="img-responsive" /></td>
+								</tr>
+								<tr>
+								<th scope="row" class="table_text">Festival de Cannes</th>
+								<td><img id="headerImage" src="images/page33.png" class="img-responsive" /></td>
+								</tr>
+								<tr>
+								<th scope="row" class="table_text">Le Grand Prix de Monaco</th>
+								<td><img id="headerImage" src="images/page34.png" class="img-responsive" /></td>
+								</tr>
+								<tr>
+								<th scope="row" class="table_text">Tour de France</th>
+								<td><img id="headerImage" src="images/page35.png" class="img-responsive" /></td>
+								</tr>
+								<tr>
+								<th scope="row" class="table_text">Pétanque</th>
+								<td><img id="headerImage" src="images/page36.png" class="img-responsive" /></td>
+								</tr>
+							</tbody>
+						</table><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+                    </div>
+                  </div>
+                  </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Page 5 & 6  -->
+        <div class="bb-item" id="item4">
+          <div class="content">
+            <div class="scroller">
+              <div class="row">
+                <div class="col-sm-6 chap_common">
+                   
+                  <div class="row">
+                    <div id="" class="col-sm-12 desc">
+                      <table class="table table-dark" style="top: 5vmin; position: relative; top: 4vmin;">
+							<thead>
+								<tr>
+								 <th scope="col" style="font-size: 2em; width: 29.5vmin; background-color: aqua;">Les mots clés</th>
+								<th scope="col" style="font-size: 2em; text-align: center; background-color: #f56276de;">Key words</th> 
+								<!-- <p style="color: blue; font-size: 2em; font-weight: bold; text-align: center;">Let’s look at some famous French food</p> -->
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+								<th scope="row" class="table_text" style="background-color: aqua;">Fromage</th>
+								<td scope="row" class="table_text" style="background-color: #f56276de; text-align: center;">Cheese</td>
+								<!-- <td><img id="headerImage" src="images/page21.png" class="img-responsive" /></td> -->
+								</tr>
+								<tr>
+								<th scope="row" class="table_text" style="background-color: aqua;">Baguette</th>
+								<td scope="row" class="table_text" style="background-color: #f56276de; text-align: center;">French bread</td>
+								</tr>
+								<tr>
+								<th scope="row" class="table_text" style="background-color: aqua;">Crêpe</th>
+								<td scope="row" class="table_text" style="background-color: #f56276de; text-align: center;">French pancake</td>
+								</tr>
+								<tr>
+								<th scope="row" class="table_text" style="background-color: aqua;">Vin</th>
+								<td scope="row" class="table_text" style="background-color: #f56276de; text-align: center;">Wine</td>
+								</tr>
+								<tr>
+								<th scope="row" class="table_text" style="background-color: aqua;">Escargot</th>
+								<td scope="row" class="table_text" style="background-color: #f56276de; text-align: center;">Snail</td>
+								</tr>
+								<tr>
+								<th scope="row" class="table_text" style="background-color: aqua;">Foie gras</th>
+								<td scope="row" class="table_text" style="background-color: #f56276de; text-align: center;">A dish made of duck or goose liver</td>
+								</tr>
+								<tr>
+								<th scope="row" class="table_text" style="background-color: aqua;">Jeanne d’Arc</th>
+								<td scope="row" class="table_text" style="background-color: #f56276de; text-align: center;">A brave French girl of the 15th century who saved France from her enemies</td>
+								</tr>
+								<tr>
+								<th scope="row" class="table_text" style="background-color: aqua;">Louis XIV</th>
+								<td scope="row" class="table_text" style="background-color: #f56276de; text-align: center;">A famous French king</td>
+								</tr>
+							</tbody>
+						</table><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-6 chap_common">
+                  <div class="row">
+                    <div id="living" class="col-sm-12">
+                      <table class="table table-dark" style="top: 5vmin; position: relative; top: 4vmin; ">
+							<thead>
+								<tr>
+								 <th scope="col" style="font-size: 2em; width: 29.5vmin; background-color: aqua;">Les mots clés</th>
+								<th scope="col" style="font-size: 2em; text-align: center; background-color: #f56276de;">Key words</th> 
+								<!-- <p style="color: blue; font-size: 2em; font-weight: bold; text-align: center;">Let’s look at some famous French food</p> -->
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+								<th scope="row" class="table_text" style="background-color: aqua;">Napoléon Bonaparte</th>
+								<td scope="row" class="table_text" style="background-color: #f56276de;">A French emperor</td>
+								<!-- <td><img id="headerImage" src="images/page21.png" class="img-responsive" /></td> -->
+								</tr>
+								<tr>
+								<th scope="row" class="table_text" style="background-color: aqua;">Victor Hugo</th>
+								<td scope="row" class="table_text" style="background-color: #f56276de;">A famous French writer</td>
+								</tr>
+								<tr>
+								<th scope="row" class="table_text" style="background-color: aqua;">Coco Chanel</th>
+								<td scope="row" class="table_text" style="background-color: #f56276de;">A French fashion designer</td>
+								</tr>
+								<tr>
+								<th scope="row" class="table_text" style="background-color: aqua;">Brigitte Bardot</th>
+								<td scope="row" class="table_text" style="background-color: #f56276de;">A French actress</td>
+								</tr>
+								<tr>
+								<th scope="row" class="table_text" style="background-color: aqua;">Le quatorze juillet</th>
+								<td scope="row" class="table_text" style="background-color: #f56276de;">July 14th, the republic day of France</td>
+								</tr>
+								<tr>
+								<th scope="row" class="table_text" style="background-color: aqua;">Mardi gras</th>
+								<td scope="row" class="table_text" style="background-color: #f56276de;">French carnival</td>
+								</tr>
+								<tr>
+								<th scope="row" class="table_text" style="background-color: aqua;">Festival de Cannes</th>
+								<td scope="row" class="table_text" style="background-color: #f56276de;">International film festival</td>
+								</tr>
+								<tr>
+								<th scope="row" class="table_text" style="background-color: aqua;">Tour de France</th>
+								<td scope="row" class="table_text" style="background-color: #f56276de;">Famous bicycle race in France</td>
+								</tr>
+								<tr>
+								<th scope="row" class="table_text" style="background-color: aqua;">Le Grand Prix de Monaco</th>
+								<td scope="row" class="table_text" style="background-color: #f56276de;">Famous automobile race in France</td>
+								</tr>
+							</tbody>
+						</table><br/>
+                    </div>
+                  </div>
+                  </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Page 7 & 8  -->
+        <div class="bb-item" id="item5">
+          <div class="content">
+            <div class="scroller">
+              <div class="row">
+                <div class="col-sm-6 chap_common">
+                   <div class="row">
+                    <div id="" class="col-sm-12">
+                      <span style="font-size: 2em;
+                        border: solid 0.3vmin;
+                        border-radius: 3vmin;
+                        background-color: #f3798e;
+                        padding: 1vmin;
+                        position: relative;
+                        top: 2vmin;">Exercises</span><br><br>
+                    </div>
+                  </div>
+				  <div class="row">
+                                 <div id="" class="col-sm-9 desc">
+                                    <h3>Its Quiz Time: <a href="assets/Ch1_Fill/index.html" onclick="basicPopup(this.href);return false"><img src="images/Start-Quiz.png" id="postDrag"/> </a></h3> 
+									<!-- <a href="assets/Quiz/index.html" onclick="basicPopup(this.href);return false">Open a popup window</a> -->
+                                 </div>
+                                 <div class="col-sm-3">
+                                 </div>
+                   </div>
+                  <div class="row">
+                    <div id="" class="col-sm-12 exe">
+                      <p><b>A. Unjumble the letters to find the words.</b></p>
+                      <p>1. gebtetau ______________ </p>
+                      <p>2. mefargo ______________</p>
+                      <p>3. coseratg ______________ </p>
+                      <p>4. etapénuq ______________ </p>
+                      <p>5. apureda ______________ </p>
+                    </div>
+                  </div>
+				   <div class="row">
+                    <div id="" class="col-sm-12 exe">
+                      <p><b>A. Can you find the correct answer?</b></p>
+                      <p>1. I saved France from its enemies.</p>
+                      <p>2. I was an emperor of France.</p>
+                      <p>3. A monument for French soldiers.</p>
+                      <p>4. A French museum. </p>
+                      <p>5. I acted in many French movies. </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-6 chap_common" style="height: 123.5vmin;">
+				<div class="row">
+                                 <div id="" class="col-sm-9 desc">
+                                    <h3>Its Quiz Time: <a href="assets/Simulation/index.html" onclick="basicPopup(this.href);return false"><img src="images/Sim.png" id="postDrag"/> </a></h3> 
+									<!-- <a href="assets/Quiz/index.html" onclick="basicPopup(this.href);return false">Open a popup window</a> -->
+                                 </div>
+                                 <div class="col-sm-3">
+                                 </div>
+                   </div>
+                  
+					 <div class="row">
+                    <div id="" class="col-sm-12">
+                      <span style="font-size: 2em;
+                        border: solid 0.3vmin;
+                        border-radius: 3vmin;
+                        background-color: #f3798e;
+                        padding: 1vmin;
+                        position: relative;
+                        top: 2vmin;">Match the columns</span><br><br>
+                    </div>
+                  </div>
+				   <div id="living" class="col-sm-12">
+                      <table class="table table-dark" style="top: 5vmin; position: relative; top: 4vmin; ">
+							<thead>
+								<tr>
+								 <th scope="col" style="font-size: 2em; width: 29.5vmin; background-color: aqua; text-align: center;">A</th>
+								<th scope="col" style="font-size: 2em; text-align: center; background-color: #f56276de;">B</th> 
+								<!-- <p style="color: blue; font-size: 2em; font-weight: bold; text-align: center;">Let’s look at some famous French food</p> -->
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+								<th scope="row" class="table_text" style="background-color: aqua;">Le coq</th>
+								<td scope="row" class="table_text" style="background-color: #f56276de;">French writer</td>
+								<!-- <td><img id="headerImage" src="images/page21.png" class="img-responsive" /></td> -->
+								</tr>
+								<tr>
+								<th scope="row" class="table_text" style="background-color: aqua;">Fromage</th>
+								<td scope="row" class="table_text" style="background-color: #f56276de;">French bicycle race</td>
+								</tr>
+								<tr>
+								<th scope="row" class="table_text" style="background-color: aqua;">Baguette</th>
+								<td scope="row" class="table_text" style="background-color: #f56276de;">French fashion designer</td>
+								</tr>
+								<tr>
+								<th scope="row" class="table_text" style="background-color: aqua;">Tour de France</th>
+								<td scope="row" class="table_text" style="background-color: #f56276de;">French pancake</td>
+								</tr>
+								<tr>
+								<th scope="row" class="table_text" style="background-color: aqua;">La crêpe</th>
+								<td scope="row" class="table_text" style="background-color: #f56276de;">Gallic rooster</td>
+								</tr>
+								<tr>
+								<th scope="row" class="table_text" style="background-color: aqua;">Coco Chanel</th>
+								<td scope="row" class="table_text" style="background-color: #f56276de;">Cheese</td>
+								</tr>
+								<tr>
+								<th scope="row" class="table_text" style="background-color: aqua;">Victor Hugo</th>
+								<td scope="row" class="table_text" style="background-color: #f56276de;">French bread</td>
+								</tr>
+							</tbody>
+						</table>
+                    </div>
+                  </div>
+                
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+		
+        <!-- </div> -->
+        <!-- </div> -->
+        <nav>
+          <span id="bb-nav-prev">&larr;</span>
+          <span id="bb-nav-next">&rarr;</span>
+          <span id="glossary"><img src="images/glossary.png" style="width: 37px;"/></span>
+		  <span id="glossary1"> <a href="assets/TestGenerator/index.html" onclick="basicPopup(this.href);return false"><img src="images/TG.png" id="postDrag" style="height: 4.5vmin; width: 4.5vmin; "/></a></span>
+		<span>
+			<button id=record style="border: 0vmin; border-radius: 3vmin;"><img src="images/rec.png" id="postDrag" style="height: 4.5vmin; width: 4.5vmin;"/></button>
+			<audio id="player" controls style="position: absolute; top: -2vmin; left: 6vmin;"></audio>
+		</span>
+		
+		  <!-- <span id="glossary2"> <a href="assets/record/index.html" onclick="basicPopup(this.href);return false"><img src="images/rec.png" id="postDrag" style="height: 4.5vmin; width: 4.5vmin;"/></a></span> -->
+        </nav>
+        <span id="tblcontents" class="menu-button">Table of Contents</span>
+      </div>
+    </div>
+      <!-- /container -->
+      <!-- <div id="light_box">
+         <iframe src="glossary.html"  height="100%" width="100%" frameborder="0"></iframe> 
+      </div> -->
+      <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+      <script src="js/jquery.mousewheel.js"></script>
+      <script src="js/jquery.jscrollpane.min.js"></script> 
+      <script src="js/jquerypp.custom.js"></script>
+      <script src="js/jquery.bookblock.js"></script>
+      <script src="js/page.js"></script>
+      <script src="js/script.js"></script>
+	   <script src="js/record.js"></script>
+      <script>
+
+	  var recorder = new WzRecorder({
+		onRecordingStop: function(blob) {
+			document.getElementById('player').src = URL.createObjectURL(blob);
+		},
+		onRecording: function(milliseconds) {
+			/*document.getElementById('duration').innerText = milliseconds + 'ms';*/
+		}
+	});
+
+	// wire up the microphone button to toggle recording
+	document.getElementById('record').onclick = recorder.toggleRecording;
+	  
+	function basicPopup(url) {
+		popupWindow = window.open(url,'popUpWindow','height=780,width=1280,resizable=yes,scrollbars=yes,toolbar=yes,menubar=no,location=no,directories=no, status=yes');
+	}
+         
+         	$(function() {        
+         		Page.init();         
+         	});
+         
+         function play_p1(){
+         	var audio = document.getElementById("audiofile");
+         	audio.play();
+         }
+         function pause_p1(){
+         	var audio = document.getElementById("audiofile");
+         	audio.pause();
+         }
+         ( function(win, doc) {
+         	var audioPlayer = doc.getElementById("audiofile");
+                   var syncData = [
+                         {"end": "0.00","start": "0.00" },
+                         {"end": "3.00","start": "0.10" },
+                         {"end": "7.00","start": "3.10" },
+                         {"end": "11.00","start": "7.30" },
+                         {"end": "15.50","start": "11.50" },
+                         {"end": "22.00","start": "15.80" },  
+                       ];
+              
+                   audioPlayer.addEventListener("timeupdate", function(e){
+                       syncData.forEach(function(element, index, array){
+                           if( audioPlayer.currentTime >= element.start && audioPlayer.currentTime <= element.end )
+                               subtitles.children[index+2].style.background = 'yellow';
+                       });
+                   });
+         	
+               }(window, document));
+         $('#pause-para1').hide();
+         
+         $(document).ready(function(){
+         
+         	$('#play-para1').click(function(){
+         		$('#pause-para1').show();
+         		$('#play-para1').hide();
+         	});
+         	$('#pause-para1').click(function(){
+         		$('#pause-para1').hide();
+         		$('#play-para1').show();
+         	});
+         });
+         
+         function play_p2(){
+         	var audio = document.getElementById("trackfile");
+         	audio.play();
+         }
+         function pause_p2(){
+         	var audio = document.getElementById("trackfile");
+         	audio.pause();
+         }
+         ( function(win, doc) {
+         	var audioPlayer = doc.getElementById("trackfile");
+                   var syncData = [
+                         {"end": "0.00","start": "0.00" },
+                         {"end": "2.60","start": "0.10" },
+                         {"end": "6.25","start": "2.61" },
+						 {"end": "9.25","start": "6.26" },
+						 {"end": "11.20","start": "9.26" },
+                       ];
+              
+                   audioPlayer.addEventListener("timeupdate", function(e){
+                       syncData.forEach(function(element, index, array){
+                           if( audioPlayer.currentTime >= element.start && audioPlayer.currentTime <= element.end )
+                               subtitle.children[index+2].style.background = 'yellow';
+                       });
+                   });
+         	
+               }(window, document));
+         $('#pause-para2').hide();
+         
+         $(document).ready(function(){
+         
+         	$('#play-para2').click(function(){
+         		$('#pause-para2').show();
+         		$('#play-para2').hide();
+         	});
+         	$('#pause-para2').click(function(){
+         		$('#pause-para2').hide();
+         		$('#play-para2').show();
+         	});
+         });
+         
+      </script>
+   </body>
+</html>

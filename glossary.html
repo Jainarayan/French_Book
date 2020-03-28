@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<head>
+	<title>GLOSSARY</title>
+	<meta charset="utf-8"/>
+	
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />	
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+	<script src="js/jquery-ui.min.js"></script>		
+	<script src="js/jsonjs.json" type="text/javascript"></script>
+	<script src="js/glossary.js" type="text/javascript"></script>
+	
+	<link href="css/jquery-ui.min.css" rel="stylesheet">
+	<!-- <link href="css/bootstrap2.css" rel="stylesheet"> -->
+	<link rel="stylesheet" type="text/css" href="css/glossary.css" />	
+	
+</head>
+	
+<body>
+	<div id="container">
+		<div class="topRow">
+			<div id="headerImage">
+				<img id="logo-img" src="images/glossary.jpg"/>
+			</div>
+			<!-- <div id="headerImage" style="float: right;">
+				<img id="close-img" src="images/close.jpg" />
+			</div> -->
+		</div>
+		<div class="searchRow">
+			<div id="searchDiv">
+				<h3 id="searchText">Search</h3>
+				<input id="search" type="search" name="search" placeholder="Search your word....." />
+			</div>
+		</div>
+		<div class="bottomRow">
+			<div class="wordsDiv">
+				<h3 id="wordsText">Words</h3>
+				<div id="text">					
+				</div>
+			</div>
+			<div class="wordsDiv">
+				<h3 id="wordsText">Definition</h3>
+				<div id="showText"></div>
+			</div>	
+		</div>	
+	</div>
+	<script src="js/script.js"></script>
+</body>
+</html>

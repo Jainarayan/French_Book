@@ -1,0 +1,87 @@
+[
+	{
+		"id": "babies",
+		"word": "Babies",
+		"definition": "the young ones."
+	},
+	{
+		"id": "breathe",
+		"word": "Breathe",
+		"definition": "to take in air."
+	},
+	{
+		"id": "climbers",
+		"word":  "Climbers",
+		"definition": "weak plants that need support to grow."
+	},
+	{
+		"id": "creepers",
+		"word":  "Creepers",
+		"definition": "weak plants growing along the ground."
+	},
+	{
+		"id": "fibre",
+		"word":  "Fibre",
+		"definition": "a thread like material."
+	},
+	{
+		"id": "flower",
+		"word":  "Flower",
+		"definition": "the colourful part of the plant."
+	},	
+	{
+		"id": "fruit",
+		"word":  "Fruit",
+		"definition": "part of a plant which contains the seed of the plant."
+	},
+	{	
+		"id": "herbs",
+		"word":  "Herbs",
+		"definition": "very small plants with soft stems."
+	},
+	{
+		"id": "leaf",
+		"word":  "Leaf",
+		"definition": "part of the plant which prepares food."
+	},
+	{
+		"id": "living_things",
+		"word": "Living Things",
+		"definition": "things that have a life of their own."
+	},
+	{
+		"id": "non-living_things",
+		"word": "Non-Living Things",
+		"definition": "things that do not have any life of their own."
+	},		
+	{
+		"id": "root",
+		"word":  "Root",
+		"definition": "the part of the plant that grows under the ground."
+	},
+	{
+		"id": "seed",
+		"word":  "Seed",
+		"definition": "present inside the fruit. It can grow into a new plant."
+	},	
+	{
+		"id": "shrubs",
+		"word":  "Shrubs",
+		"definition": "small plants with woody stems."
+	},
+	{
+		"id": "stem",
+		"word":  "Stem",
+		"definition": "the part of the plant above the ground."
+	},	
+	{
+		"id": "trees",
+		"word":  "Trees",
+		"definition": "big and tall plants with trunks."
+	},
+	{
+		"id": "trunk",
+		"word":  "Trunk",
+		"definition": "woody stem of trees."
+	}		
+]

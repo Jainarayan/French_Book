@@ -1,0 +1,80 @@
+body{
+	background-image: url(../images/S1_3.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#container{
+    width: 85vw;
+	margin: auto;
+	margin-top: 3vmin;
+	background-image: linear-gradient(to bottom, rgba(32, 230, 230,1), rgba(255, 255, 255,1)); 
+	border-radius: 8px;
+	border: 10px solid;
+	border-image: linear-gradient(to top, rgb(32, 230, 230), rgb(255, 255, 255)) 1;	
+	position: relative;
+}
+.topRow, .bottomRow, .searchRow{
+	width: 85vw;
+}
+#headerImage{
+	/* width: 60vmin; */
+	display: inline;
+}
+#logo-img{
+	width: 42vmin;
+}
+#close-img{
+    width: 6vmin;
+    float: right;
+}
+#searchDiv, #wordsDiv{
+	margin-left: 10vmin;
+}
+#searchText, #wordsText{
+	font-family: Cooper Black;
+	color: #063f4e;
+}
+/* #wordsText{
+	display: inline;
+} */
+#search{
+	width: 55vmin;
+    border: 4px solid #097c99;
+}
+.wordsDiv{
+	padding: 0;
+	width: 79vmin;
+    display: inline-block;
+	vertical-align: top;
+	margin-left: 10vmin;
+}
+
+#showText{
+	width: 59.6vmin;
+	border: 4px solid #097c99;
+    background-color: white;
+	height: 21vmin;
+	overflow-y: auto;
+	display: inline-block;
+	padding: 3vmin;
+	font-size: 3.5vmin;
+}
+#text{
+	width: 59.6vmin;
+	border: 4px solid #097c99;
+    background-color: white;
+	height: 52vmin;
+	overflow-y: auto;
+	display: inline-block;
+}
+.divSelect{
+	cursor: pointer;
+	margin-top: 5px;
+	padding-left: 2%;
+}
+.divSelect:hover{
+	background-color: #91cefa;
+}
+.divSelect:focus{
+	background-color: #c6bce3;
+}
