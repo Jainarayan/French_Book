@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="viewport" content="width= device-width, initial-scale=1.0" />
+<link rel="stylesheet" type="text/css" href="css/main.css" />
+<meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+<meta content="utf-8" http-equiv="encoding">
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/jquery-ui.min.js"></script>
+</head>
+<body>
+<div id="mainContainer">	
+	<div id="score">
+		<p id="scoreText">0</p>
+		<img id="starImage" src="images/star.png"/>
+		<img id="buttonImage" src="images/score_button.png"/>
+	</div>
+ 	
+	<div id="quest1">
+		<div class="title-bar">
+			<div class="title-content">Tick (&#10004;) the correct statements.</div>
+		</div>
+		<div id="top-box">				
+			<div class="content-box">			
+				<div id="option1" class="answers">
+					<p class="options"><span class="option-content1">a. Greenhouse gases allow the Sun’s heat to escape into space.</span><button id="button1" class="option-buttons quest1correct"></button></p>
+				</div>	
+				<div id="option2" class="answers">
+					<p class="options"><span class="option-content1">b. Deforestation must be encouraged.</span><button id="button2" class="option-buttons quest1incorrect"></button></p>
+				</div>	
+				<div id="option3" class="answers">
+					<p class="options"><span class="option-content1">c. Manure can be used as a fertiliser in fields.</span><button class="option-buttons quest1incorrect"></button></p>
+				</div>
+				<div id="option4" class="answers">
+					<p class="options"><span class="option-content1">d. Using too many chemicals can pollute the soil.</span><button class="option-buttons quest1correct"></button></p>
+				</div>	
+				<div id="option5" class="answers">
+					<p class="options"><span class="option-content1">e. The Earth’s atmosphere is composed of only oxygen and carbon dioxide.</span><button class="option-buttons quest1incorrect"></button></p>
+				</div>				
+			</div>
+		</div>		
+	</div>   
+	
+	
+	 <div id="quest2" class="hideQuestions">
+		<div class="title-bar">
+			<div class="title-content">Fill in the blanks using the words given.</div>
+		</div>
+		<div id="top-box">				
+			<div class="content-box">			
+				<div class="fillanswers">
+					<div class="option-content"><span>a. The plants in desert areas have </span> <span id="fillInputBox1" class="fillInputBox kutcha" style="top: -3.5vmin; left: 47vmin;"> </span> </div>
+					<div class="option-content" style="margin-left: 31vmin;">stems.</div>	
+				</div>
+				<div class="fillanswers">
+					<div class="option-content"><span>b. The floating plants have </span>
+					<span id="fillInputBox2" class="fillInputBox tent" style="top: -3.5vmin;"> </span>
+					 <span style="margin-left: 31vmin;"> stems.</span></div> 
+					<div class="option-content" style="margin-left: 31vmin;"></div>
+				</div>	
+				<div class="fillanswers">
+					<div class="option-content"><span>c. Most of the plants growing in hilly areas have </span>
+					<span id="fillInputBox3" class="fillInputBox orph" style="top: -3.5vmin;"> </span></div> 
+					<div class="option-content" style="margin-left: 31vmin;">leaves.</div>
+				</div>
+				<div class="fillanswers">
+					<div class="option-content"><span>d. The floating plants have </span>
+					<span id="fillInputBox4" class="fillInputBox shack" style="top: -3.5vmin;"> </span>
+					 <span style="margin-left: 31vmin;"> leaves.</span></div> 
+					<div class="option-content" style="margin-left: 31vmin;"></div>
+				</div>
+				<div class="fillanswers">
+					<div class="option-content"><span>e. Stomata are </span>
+					<span id="fillInputBox5" class="fillInputBox absent" style="top: -3.5vmin;"> </span></div> 
+					<div class="option-content" style="margin-left: 31vmin;">in leaves of submerged aquatic plants.</div>
+				</div>
+				<div class="fillanswers">
+					<div class="option-content"><span>f. Pitcher plant is an </span>
+					<span id="fillInputBox6" class="fillInputBox insectivorous" style="top: -3.5vmin;"> </span></div> 
+					<div class="option-content" style="margin-left: 31vmin;">plant.</div>
+				</div>
+				<div class="fillanswers">
+					<div class="option-content"><span>g. Date palm trees are commonly found in </span>
+					<span id="fillInputBox7" class="fillInputBox desert" style="top: -3.5vmin;"> </span></div> 
+					<div class="option-content" style="margin-left: 31vmin;">areas.</div>
+				</div>
+
+				<div class="quest2dragArea">
+					<div id="" class="quest2boxes">
+						<div class="quest2dragItem kutcha">fleshy</div>
+					</div>
+					<div id="" class="quest2boxes">
+						<div class="quest2dragItem orph">needle-like</div>					
+					</div>
+					<div id="" class="quest2boxes">
+						<div class="quest2dragItem tent">narrow</div>
+					</div>
+					<div id="" class="quest2boxes">
+						<div class="quest2dragItem shack">Shack</div>
+					</div>	
+					<div id="" class="quest2boxes">
+						<div class="quest2dragItem absent" style="left: 13vmin;">absent</div>
+					</div>	
+					<div id="" class="quest2boxes">
+						<div class="quest2dragItem insectivorous" style="left: 13vmin;">insectivorous</div>
+					</div>
+					<div id="" class="quest2boxes">
+						<div class="quest2dragItem desert" style="left: 13vmin;">desert</div>	
+					</div>					
+				</div>
+			</div>
+		</div>	
+	</div>  
+	
+	
+	
+	<div id="feedbackDiv">
+			<div id="simple">
+				<img src="images/simple.gif" class="feedbackImages"/>
+			</div>
+			<div id="correct">
+				<img src="images/correct.gif" class="feedbackImages"/>
+			</div>
+			<div id="incorrect">
+				<img src="images/incorrect.png" class="feedbackImages"/>
+			</div>
+		</div>
+	<div id="hideContainer"></div>
+</div>
+<script src="js/script.js"></script>
+<script src="js/jquery.ui.touch-punch.js"></script>
+</body>
+</html> 
+

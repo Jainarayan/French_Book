@@ -1,0 +1,340 @@
+* {box-sizing: border-box}
+body{
+	overflow-y: hidden;
+	margin: 0;
+}
+:root {
+  --ratio: 9 / 16;
+  --width: 100vmin;
+  --height: calc(var(--width) * var(--ratio));
+  --white: #ffffff;
+}
+
+#resultContainer {display: none}
+/* Slide Layout */
+#startContainer{
+    width: 100vw; 
+    height: 56.20vw; /* height:width ratio = 9/16 = .5625    126:75 */
+    max-height: 100vh;
+    max-width: 177.8vh; /* 16/9 = 1.778     */
+    margin: auto;
+    position: absolute;
+    top:0;bottom:0; /* vertical center */
+    left:0;right:0; /* horizontal center */
+    background-color: rgba(15, 162, 218, 0.5); 
+	z-index: 900;
+}  
+#mainContainer{
+    height: 98vmin;
+    width: 98%;
+    position: absolute;
+    z-index: 70;
+    left: 2vmin;
+    /* padding: 6vmin; */
+	/* background: url('../images/1.jpg'); 
+	background-repeat: no-repeat;
+	background-size: cover; */
+}
+#score{
+	width: 20vmin;
+    right: 1vmin;
+    position: absolute;
+    /* top: 3vmin; */
+}
+#buttonImage{
+	width: 20vmin;
+}
+#score p{
+	position: absolute;
+    font-size: 6vmin;
+    top: -4.6vmin;
+    left: 9vmin;
+	color: #EC9B3B;
+	font-weight: bold;
+}
+#starImage{
+	position: absolute;
+    width: 9vmin;
+    left: -3vmin;
+	top: 0.3vmin;
+}
+#feedbackDiv{
+	width: 30vmin;
+    position: absolute;
+    right: 0vmin;
+    bottom: -1vmin;
+}
+.feedbackImages{
+	width: 28vmin;
+}
+#incorrect img{
+	margin-bottom: -0.6vmin;
+	width: 31vmin;
+}
+#hideContainer{
+	width: 166vmin;
+    /* border: 1px solid; */
+    position: absolute;
+    top: 9vmin;
+    left: 4vmin;
+    height: 88vmin;
+    z-index: 1000;
+}
+
+
+/*--- Ques 1 ---*/
+.title-bar{      
+    padding: 1vmin;
+    position: absolute;
+    left: 1vmin;
+    top: 6vmin;
+    z-index: 100;
+    width: 92%;
+    border-radius: 4vmin;
+    height: 11vmin;
+	text-shadow: 2px 2px 1px rgba(150, 150, 150, 1);
+}
+.title-content{
+	font-size: 4.5vmin;
+    color: black;
+    padding: 2vmin;
+    text-align: center;
+    width: 100%;
+	font-weight: bold;
+}
+#title-image{
+	width: 4%;
+    position: relative;
+    top: 1vmin;
+}
+#top-box{
+    height: 98vmin;
+    width: 98%;
+    position: absolute;
+    z-index: 70;
+    left: -1vmin;
+    padding: 6vmin;
+}
+
+.content-box{
+    margin-top: 10vmin;
+    width: 100%;
+    top: calc(var(--height)*(.35));
+    z-index: 70;
+    left: 0vmin;
+    padding: 1vmin 22vmin;
+}
+.option-content1{
+	width: 100%;
+	text-align: left;
+	margin-left: 3vmin; 
+	font-size: 3.5vmin;
+	color: black;
+}
+.answers{
+    margin-top: 7.5vmin;
+    margin-left: 0vmin;
+    font-size: 4.5vmin;
+    position: relative;
+    width: 116%;
+    font-weight: bold;
+}
+.option-buttons{
+    width: 6vmin;
+    height: 6vmin;
+    border: 1px solid #e0078c;
+    border-radius: 4px;
+    position: absolute;
+    cursor: pointer;
+    padding: 0;
+    left: 107vmin;
+	background-image: radial-gradient(circle, #f0d19f, #edc293, #e9b389, #e5a480, #e0957a);
+}
+.TickMark{
+	font-size: 6vmin;
+    position: absolute;
+    top: -1.5vmin;
+    left: 0.5vmin;
+}
+.options{
+	padding-right: 17vmin;
+	margin-bottom: -0.5vmin;
+}
+.option-buttons:hover{
+	box-shadow: 0 0 7px rgba(0,0,0,0.6);
+}
+.show-img{
+	width: 13vmin;
+}
+.option-content1{
+	position: relative;
+    left: -12vmin;
+	color: black;
+}
+.option-buttonTick{
+	width: 5vmin;
+}
+
+
+/*---Quest2---*/
+.quest2dragArea{
+    position: relative;
+    z-index: 100;
+    left: -3.2vmin;
+    top: 15.5vmin;
+    height: 12vmin;
+    width: 93.5%;
+    padding: 2vmin 0vmin;
+    background: #fff;
+    border-radius: 2vmin;
+}
+.quest2boxes{
+    width: 20vmin;
+    margin-left: 5.5vmin;
+    height: 8vmin;
+    float: left;
+}
+.quest2dragItem{
+    width: 19vmin;
+    height: 6.5vmin;
+    color: #fff;
+    font-size: 3.3vmin;
+    background: #ed5107;
+    text-align: center;
+    padding: 1.1vmin 0vmin;
+    border: 0.2vmin solid;
+    cursor: pointer;
+}
+.option-content{
+	width: 100%;
+	text-align: left;
+	margin-left: -12vmin; 
+	font-size: 3.5vmin;
+	position: relative;
+    left: 0vmin;
+	color: black;
+	display: inline;
+}
+.fillanswers{
+	height: 11vmin;
+    width: 95%;
+    margin-top: -1.5vmin;
+    margin-left: 11vmin;
+}
+.fillanswers .options{
+	padding: 0.3vmin 0vmin 0vmin 0vmin;
+	margin-bottom: 6vmin;
+}
+.fillanswers .option-content{
+	display: inline;
+	top: 12vmin;
+}
+#fillOptions{
+	position: absolute;
+    width: 20vmin;
+    top: 24vmin;
+    right: 0vmin;
+	text-align: center;
+	background: #D6B4E7;
+}
+.fillOptionsContent{
+	font-size: 3vmin;
+	margin: 5vmin 0vmin;
+}
+.fillInputBox{
+	width: 30vmin;
+    height: 7vmin;   
+	font-size: 5vmin;
+	text-align: center;
+	background: transparent;
+	border-color: transparent;
+	border-bottom: 0.1vmin solid black;
+	display: inline-block;
+	position: absolute;
+}
+
+/* --Ques 3-- */
+.quest3Images{
+	cursor: pointer;
+	border: 0.8vmin solid #fff;
+	width: 20vmin;
+	height: 14.5vmin;
+	margin-left: 0vmin;
+    margin-top: -3.5vmin;
+    display: block;
+	margin-bottom: 5vmin;
+}
+.quest3Images_right{
+	cursor: pointer;
+	border: 0.8vmin solid #fff;
+	width: 20vmin;
+	height: 14.5vmin;
+	margin-left: 0vmin;
+    margin-top: 14vmin;
+    display: block;
+	margin-bottom: 10vmin;
+}
+
+.optionsLeft, .optionsRight{
+	position: absolute;
+    top: 21vmin;
+    left: 41vmin;
+}
+.optionsRight{
+	left: 95vmin;
+}
+.optionRightContent{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border: 1vmin solid white;
+    height: 9vmin;
+    margin-left: -2vmin;
+    cursor: pointer;
+    background: white;
+    width: 28vmin;
+    margin-bottom: 6.6vmin;
+    font-size: 3.3vmin;
+    padding: 1.5vmin;
+	text-align: center;
+}
+
+.line{
+	width: 10vmin;
+	border: 0.5vmin solid #FF2281;	
+	z-index: -1;
+}
+#line1{
+	width: 54vmin;
+    position: absolute;
+    top: 39.6vmin;
+    left: 49vmin;
+    transform: rotate(45deg);
+}
+#line2{
+	width: 49vmin;
+    position: absolute;
+    top: 55.6vmin;
+    left: 52vmin;
+    transform: rotate(45deg);
+}
+#line3{
+    width: 50vmin;
+    position: absolute;
+    top: 71.6vmin;
+    left: 51vmin;
+    transform: rotate(45deg);
+}
+#line4{
+    width: 47vmin;
+    position: absolute;
+    top: 55.6vmin;
+    left: 54vmin;
+    transform: rotate(-45deg);
+}
+#line5{
+    width: 75vmin;
+    position: absolute;
+    top: 55.6vmin;
+    left: 40vmin;
+    transform: rotate(-63deg);
+}
+

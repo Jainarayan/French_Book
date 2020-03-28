@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="viewport" content="width= device-width, initial-scale=1.0" />
+<link rel="stylesheet" type="text/css" href="css/main.css" />
+<meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+<meta content="utf-8" http-equiv="encoding">
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/jquery-ui.min.js"></script>
+</head>
+<body>
+<div id="mainContainer">	
+	<div id="score">
+		<p id="scoreText">0</p>
+		<img id="starImage" src="images/star.png"/>
+		<img id="buttonImage" src="images/score_button.png"/>
+	</div>
+	
+	 <div id="quest1">
+		<div class="title-bar">
+			<div class="title-content">Fill in the blanks using the words given.</div>
+		</div>
+		<div id="top-box">				
+			<div class="content-box">			
+				<div class="fillanswers">
+					<div class="option-content"><span>a. Plants get their </span> <span id="fillInputBox1" class="fillInputBox Food" style="top: -3.5vmin; left: 25vmin;"> </span> </div>
+					<div class="option-content" style="margin-left: 31vmin;">from bacteria in the soil.</div>	
+				</div>
+				<div class="fillanswers">
+					<div class="option-content"><span>b. Water in its purest form is obtained using the process of </span>
+					<span id="fillInputBox2" class="fillInputBox Distillation" style="top: -3.5vmin;"> </span>
+					 <span style="margin-left: 31vmin;"> .</span></div> 
+					<div class="option-content" style="margin-left: 31vmin;"></div>
+				</div>	
+				<div class="fillanswers">
+					<div class="option-content"><span>d.</span>
+					<span id="fillInputBox4" class="fillInputBox Troposphere" style="top: -3.5vmin;"> </span>
+					 <span style="margin-left: 31vmin;"> is the heaviest layer of the atmosphere.</span></div> 
+					<div class="option-content" style="margin-left: 31vmin;"></div>
+				</div>
+				<div class="fillanswers">
+					<div class="option-content"><span>e. The solid left behind in the process of filtration is called</span>
+					<span id="fillInputBox5" class="fillInputBox Residue" style="top: -3.5vmin;"> </span></div> 
+					<div class="option-content" style="margin-left: 31vmin;">.</div>
+				</div>
+
+				<div class="quest2dragArea">
+					<div id="" class="quest2boxes">
+						<div class="quest2dragItem Distillation">Distillation</div>
+					</div>
+					<div id="" class="quest2boxes">
+						<div class="quest2dragItem Residue">Residue</div>					
+					</div>
+					<div id="" class="quest2boxes">
+						<div class="quest2dragItem Troposphere">Troposphere</div>
+					</div>
+					<div id="" class="quest2boxes">
+						<div class="quest2dragItem Food">Food</div>
+					</div>	
+									
+				</div>
+			</div>
+		</div>	
+	</div>  
+	
+	
+	
+	<div id="feedbackDiv">
+			<div id="simple">
+				<img src="images/simple.gif" class="feedbackImages"/>
+			</div>
+			<div id="correct">
+				<img src="images/correct.gif" class="feedbackImages"/>
+			</div>
+			<div id="incorrect">
+				<img src="images/incorrect.png" class="feedbackImages"/>
+			</div>
+		</div>
+	<div id="hideContainer"></div>
+</div>
+<script src="js/script.js"></script>
+<script src="js/jquery.ui.touch-punch.js"></script>
+</body>
+</html> 
+

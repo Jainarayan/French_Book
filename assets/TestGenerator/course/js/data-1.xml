@@ -1,0 +1,500 @@
+<?xml version="1.0" encoding="utf-8" ?>
+	<data>
+		<chapters>
+			<chapter num="1">Air and Water</chapter>
+			<chapter num="2">Rocks and Minerals</chapter>
+			<chapter num="3">Earth and its Neighbours</chapter>
+			<chapter num="4">Living and Non-Living Things</chapter>
+			<chapter  num="5">Plants</chapter>
+			<chapter  num="6">Eating Habits of Animals</chapter>
+			<chapter  num="7">Our Body</chapter>
+			<chapter  num="8">Housing and Clothing</chapter>
+			<chapter  num="9">Safety</chapter>
+			<chapter  num="10">Birds</chapter>
+			<chapter  num="11">Measurment</chapter>
+			<chapter  num="12">States of Matter</chapter>
+			<chapter  num="13">Light, Sound and Force</chapter>
+		</chapters>		
+		
+		<qtypes>
+			<qtype lbl="fillblank" desc="Fill in the blanks"></qtype>
+			<qtype lbl="tick" desc="Tick the correct option"></qtype>
+			<qtype lbl="Tof" desc="True or false"></qtype>
+			<qtype lbl="match" desc="Match the following"></qtype>
+			<qtype lbl="short" desc="Short answer type questions"></qtype>
+			<!-- <qtype lbl="picQ" desc="Picture based questions"></qtype> -->
+			<qtype lbl="longa" desc="Long answer questions"></qtype>
+		</qtypes>
+	
+		<questions>	 
+		
+			<question chapter="1" type="tick">
+				<questTitle><![CDATA[Multiple Choice Questions]]></questTitle>
+				<subq><![CDATA[Air contains <br />  i. Gases  <br />  ii. Dust and Germs <br />  iii. Both <br /> =These do not have a fixed shape and take the shape of the container they are kept in. <br />  i. Solid <br />  ii. Liquid <br />  iii. Gas <br />  =Clothes dry due to <br />  i. Evaporation <br />  ii. Condensation <br />  iii. Precipitation <br />  =The process by which water change into water vapour is called <br />  i. Boiling <br />  ii. Evaporation <br />  iii. Condensation <br /> =When air blows from one place to another, it is called <br />  i. wind <br />  ii. Breeze <br />  iii. Gale ]]></subq>
+				<ans><![CDATA[]]></ans>
+			</question>
+			
+			<question chapter="1" type="Tof">
+				<questTitle><![CDATA[True and False.]]></questTitle>
+				<subq><![CDATA[Air is present only near the water bodies.=Ice-cream can be in form of solid, liquid or gas.=When water vapour changes into water upon cooling, it is called evaporation.=Water is present in air in gaseous form.]]></subq>
+				<ans><![CDATA[]]></ans>
+			</question>
+			
+			<question chapter="1" type="fillblank">
+				<questTitle><![CDATA[Fill in the blanks.]]></questTitle>
+				<subq><![CDATA[Air and water are two important elements of ___________.=When wind blows gently, it is known as a _________.=_______ is used by plants to make food.=______ is the solid form of water.]]></subq>
+				<ans><![CDATA[]]></ans>
+			</question>
+			
+			<question chapter="1" type="match">
+				<questTitle><![CDATA[Match directions shared with different countries across boundaries.]]></questTitle>
+				<images><![CDATA[ch_1_ex_4.png]]></images>
+				<ans><![CDATA[]]></ans>
+			</question>
+			
+			<question chapter="1" type="short">
+				<questTitle><![CDATA[Short answer type questions]]></questTitle>
+				<subq><![CDATA[Define the following <br/> 1. wind <br/> 2. breeze=Write down the components of air.=Write two uses of air.=Write two uses for each of the following: <br/> i. Precipitation <br/> ii. Oxygen=Write down the sources where we can find water.]]></subq>
+				<ans><![CDATA[]]></ans>
+			</question>
+			
+			<question chapter="1" type="longa">
+				<questTitle><![CDATA[Give reasons for the following.]]></questTitle>
+				<subq><![CDATA[How do we know that air is moving? Give two examples.=Define gale. How is it different from wind?=What is the difference between evaporation and condensation?=Describe the process of water cycle and draw it.=Explain the importance of air and water for us.]]></subq>
+				<ans><![CDATA[]]></ans>
+			</question>
+			
+			<question chapter="2" type="tick">
+				<questTitle><![CDATA[Multiple Choice Questions]]></questTitle>
+				<subq><![CDATA[Rocks are also the materials that form the Earth’s top layer called the <br />  i. crust <br />  ii. hard rock <br />  iii. surface <br />  =This lava cools down on the Earth’s surface and becomes solid rock called <br />  i. sedimentary rocks    <br />  ii. igneous rocks       <br />  iii. metamorphic rocks <br />  =The loose top layer of Earth’s crust is called  <br />  i. rock  <br />  ii. soil <br />  iii. crust <br />  =This process of breaking of a rocks to form _____ is called weathering. <br />  i. soil <br />  ii. bedrock <br />  iii. nutrients <br />  =The layer of soil in which big rocks are found. <br />  i. topsoil <br />  ii. subsoil <br />  iii. bedrock]]></subq>
+				<ans><![CDATA[]]></ans>
+			</question>
+			
+			<question chapter="2" type="Tof">
+				<questTitle><![CDATA[True and False.]]></questTitle>
+				<subq><![CDATA[There are about 3,000 different minerals in the world.=Rocks follow a cycle called the <strong>rock cycle</strong> for their formation.=The rocks formed by the cooled down lava are known as sedimentary rocks.=The topmost layer of soil that we see is called the sub-soil.=Sandy soil can easily retain fertilisers.]]></subq>
+				<ans><![CDATA[False=False=True=False=True]]></ans>
+			</question>
+			
+			<question chapter="2" type="fillblank">
+				<questTitle><![CDATA[Fill in the blanks.]]></questTitle>
+				<subq><![CDATA[When hot, molten lava cools down, the rock that it forms is called an __________ rock.=__________ rocks have many layers of rocks in them.=The rocks that are formed due to changes under heat and pressure are called ________ rocks.=The loose top layer of Earth’s crust is called _________.]]></subq>
+				<ans><![CDATA[]]></ans>
+			</question>
+			
+			<question chapter="2" type="match">
+				<questTitle><![CDATA[Match the column.]]></questTitle>
+				<images><![CDATA[ch_2_ex_4.png]]></images>
+				<ans><![CDATA[]]></ans>
+			</question>
+			
+			<question chapter="2" type="short">
+				<questTitle><![CDATA[Short answer type questions.]]></questTitle>
+				<subq><![CDATA[Name the rocks that are made from sediments.=Which type of soil do you find at the beach?=Rank soils in the order of fertility, with the first being the most fertile soil.=What is meant by weathering?]]></subq>
+				<ans><![CDATA[]]></ans>
+			</question>
+			
+			<question chapter="2" type="longa">
+				<questTitle><![CDATA[Give reasons for the following.]]></questTitle>
+				<subq><![CDATA[Define minerals.=How are sedimentary rocks formed?=Explain rock cycle.=What is humus and where is it found? What is its importance?=Explain the layers of the soil which you find as you dig into the earth.=Differentiate between sedimentary, metamorphic and igneous rocks.]]></subq>
+				<ans><![CDATA[]]></ans>
+			</question>
+			
+			<question chapter="3" type="tick">
+				<questTitle><![CDATA[Multiple Choice Questions.]]></questTitle>
+				<subq><![CDATA[The closest star to the Earth is <br />  i. Sun <br />  ii. Moon<br />  iii. Venus <br />  =An object that moves around the Sun. <br />  i. A star  <br />  ii. A galaxy <br />  iii. A planet <br />  =This is responsible for the occurrence of days and nights. <br />  i. Rotation <br />  ii. Revolution <br />  iii. Movement of the Moon <br />  =The Moon completes one circle around Earth in <br />  i. 25 days  <br />  ii. 25 days   <br />  iii. 26 days <br />  =What causes seasons? <br />  i. Revolution <br />  ii. Rotation <br />  iii. Rotation]]></subq>
+				<ans><![CDATA[]]></ans>
+			</question>
+			
+			<question chapter="3" type="Tof">
+				<questTitle><![CDATA[True and False.]]></questTitle>
+				<subq><![CDATA[The Moon has its own atmosphere.=Earth revolves on its axis.=The Moon is Earth’s natural satellite.=The Sun provides heat and light to all planets.=The Sun moves around the planets.]]></subq>
+				<ans><![CDATA[]]></ans>
+			</question>
+			
+			<question chapter="3" type="fillblank">
+				<questTitle><![CDATA[Fill in the blanks.]]></questTitle>
+				<subq><![CDATA[Earth: Planet : _________ : Satellite=Rotation of Earth: _________ : Revolution of Earth: 365¼ days=Planet:____________________ : Satellite: an object that moves around the planet=The Moon: does not have light :________ : has light]]></subq>
+				<ans><![CDATA[]]></ans>
+			</question>
+			
+			<question chapter="3" type="match">
+				<questTitle><![CDATA[Match the following.]]></questTitle>
+				<images><![CDATA[ch_3_ex_4.png]]></images>
+				<ans><![CDATA[]]></ans>
+			</question>
+			
+			<question chapter="3" type="short">
+				<questTitle><![CDATA[Short answer type questions]]></questTitle>
+				<subq><![CDATA[What is the path used by the planets to move around the Sun called?=How long does it take Jupiter to complete one rotation?=How long is the sun going to keep giving us heat and light?=Define satellite. What is the name of the satellite of Earth?=Name the different phases of the moon.]]></subq>
+				<ans><![CDATA[]]></ans>
+			</question>
+			
+			<question chapter="3" type="longa">
+				<questTitle><![CDATA[Give reasons for the following.]]></questTitle>
+				<subq><![CDATA[What is the difference between rotation and revolution?=How are days and nights caused on the planet Earth?=What is the solar system?=Why is there life on planet Earth?]]></subq>
+				<ans><![CDATA[]]></ans>
+			</question>
+			
+			<question chapter="4" type="tick">
+				<questTitle><![CDATA[Multiple Choice Questions]]></questTitle>
+				<subq><![CDATA[A rose plant is said to be a living thing because <br />  i. It needs nutrition <br />  ii. It grows <br />  iii. It excretes <br />  iv. All of them <br />=Which of the following cannot move on its own? <br />  i. Dog <br />  ii. Car <br />  iii. Frog <br />  iv. Neem tree <br />=Which of the given things respire? <br/> <strong>Money plant &emsp; House fly &emsp; Earthworm &emsp; Crow</strong> <br />  i. Only crow <br />  ii. Only house fly and crow <br />  iii. All of them <br />  iv. Only house fly, earthworm and crow <br />=Which of the given sense organs help us to receive information from our surroundings? <br/> <strong>Eyes &emsp; Nose &emsp; Ears &emsp; Tongue</strong>  <br />  i. All of the above <br />  ii. None of the above <br />  iii. Eyes and Nose <br />  iv. Ears and Tongue]]></subq>
+				<ans><![CDATA[]]></ans>
+			</question>
+		
+			<question chapter="4" type="Tof">
+				<questTitle><![CDATA[True and False.]]></questTitle>
+				<subq><![CDATA[Some plants do not sense.=All plants and animals grow.=Only animals can give birth to young ones.=Non-living things do not die.]]></subq>
+				<ans><![CDATA[]]></ans>
+			</question>
+			
+			<question chapter="4" type="fillblank">
+				<questTitle><![CDATA[Fill in the blanks.]]></questTitle>
+				<subq><![CDATA[Removal of waste from the body is known as  __________ .=Plants make their own food with the help of a substance called __________.=__________ things do not move on their own.=Fish breathe with the help of ____________.]]></subq>
+				<ans><![CDATA[]]></ans>
+			</question>
+			
+			<question chapter="4" type="match">
+				<questTitle><![CDATA[Match the following.]]></questTitle>
+				<images><![CDATA[ch_4_ex_4.png]]></images>
+				<ans><![CDATA[]]></ans>
+			</question>
+			
+			<question chapter="4" type="short">
+				<questTitle><![CDATA[Short answer type questions<br/> Give two examples of each of the following.]]></questTitle>
+				<subq><![CDATA[Natural things seen around you.=Non-living natural things in a forest.=Man-made things in the class.]]></subq>
+				<ans><![CDATA[]]></ans>
+			</question>
+			
+			<question chapter="4" type="longa">
+				<questTitle><![CDATA[Give reasons for the following.]]></questTitle>
+				<subq><![CDATA[When a tree is cut to form a table, would the table be considered living or non-living? Explain the reasons.=Define excretion. How is excretion in plants different from excretion in animals?=Explain the different methods of movement in living things with the help of examples.=Describe the different ways in which living things breathe.]]></subq>
+				<ans><![CDATA[]]></ans>
+			</question>
+			
+			<question chapter="5" type="tick">
+				<questTitle><![CDATA[Multiple Choice Questions]]></questTitle>
+				<subq><![CDATA[The part of the plant that transports water and food. <br />  i. Leaf <br />  ii. Stem <br />  iii. Flower <br/> =What is present inside most of the fruits. <br />  i. seeds  <br />  ii. flowers <br />  iii. leaves <br />=Which of the given one has a fibrous root? <br />  i. Onion  <br />  ii. Grass  <br />  iii. Both of these <br />  =The flat part of the leaf is called its  <br />  i. blade <br />  ii. petiole  <br />  iii. vein  <br />  =What does seed needs to grow into plants? <br />  i. Air and water <br />  ii. soil and light <br />  iii. Both i. and ii. ]]></subq>
+				<ans><![CDATA[]]></ans>
+			</question>
+		
+			<question chapter="5" type="Tof">
+				<questTitle><![CDATA[True and False.]]></questTitle>
+				<subq><![CDATA[ All plants have the same type of roots.=Stems fix the plant in the soil.=Roots take water from the air.=Seeds always grow into new plants.]]></subq>
+				<ans><![CDATA[]]></ans>
+			</question>
+			
+			<question chapter="5" type="fillblank">
+				<questTitle><![CDATA[Fill in the blanks.]]></questTitle>
+				<subq><![CDATA[A tap root has ___ main root.=The ______ of plant is above the ground.=Seeds are present _______ the fruit.=Mustard plant has a ________ root.]]></subq>
+				<ans><![CDATA[]]></ans>
+			</question>
+			
+			<question chapter="5" type="match">
+				<questTitle><![CDATA[Match the following.]]></questTitle>
+				<images><![CDATA[ch_5_ex_4.png]]></images>
+				<ans><![CDATA[]]></ans>
+			</question>
+							
+			<question chapter="5" type="short">
+				<questTitle><![CDATA[Short answer type questions]]></questTitle>
+				<subq><![CDATA[Define Shoot.=What are the functions of a leaf?=What do you mean by tap root?=What do you mean by tap root?=What is germination?]]></subq>
+				<ans><![CDATA[]]></ans>
+			</question>
+			
+			<question chapter="5" type="longa">
+				<questTitle><![CDATA[Give reasons for the following.]]></questTitle>
+				<subq><![CDATA[Differentiate between roots of an onion and a radish.=Explain and draw the structure of a leaf.=Explain how water from roots reaches the leaves of a plant.=Describe the differences between the stem of a cactus and a Neem tree.]]></subq>
+				<ans><![CDATA[]]></ans>
+			</question>	
+			
+			<question chapter="6" type="tick">
+				<questTitle><![CDATA[Multiple Choice Questions]]></questTitle>
+				<subq><![CDATA[This creature eats both plants and animals. <br />  i. Man <br />  ii. Cow <br />  iii. Tiger <br/> =Which of the given creature sucks blood? <br />  i. Mosquito  <br />  ii. Butterfly <br />  iii. Giraffe <br />=Hyenas, wolves, vultures are the examples of <br />  i. herbivores  <br />  ii. carnivores  <br />  iii. scavengers <br />  =Rabbits and squirrels eat their food by <br />  i. rumination <br />  ii. gnawing  <br />  iii. sucking  <br />  =Which of the given animal is a ruminant? <br />  i. cow  <br />  ii. buffaloes <br />  iii. both i. and ii. ]]></subq>
+				<ans><![CDATA[]]></ans>
+			</question>
+
+			<question chapter="6" type="Tof">
+				<questTitle><![CDATA[True and False.]]></questTitle>
+				<subq><![CDATA[Gnawing and swallowing of food are same.=Rabbits and snakes are cud-chewing animals.=Butterflies suck blood from the bodies of other animals.=Rats have sharp front teeth in their upper and the lower jaws.]]></subq>
+				<ans><![CDATA[]]></ans>
+			</question>
+			
+			<question chapter="6" type="fillblank">
+				<questTitle><![CDATA[Fill in the blanks.]]></questTitle>
+				<subq><![CDATA[The cow is a _______ eating animal.=Chewing the cud is also called ______.=Squirrels eat their food by ___________.=__________ catch their prey and eat other animals.]]></subq>
+				<ans><![CDATA[]]></ans>
+			</question>
+			
+			<question chapter="6" type="match">
+				<questTitle><![CDATA[Match the following.]]></questTitle>
+				<images><![CDATA[ch_6_ex_4.png]]></images>
+				<ans><![CDATA[]]></ans>
+			</question>
+			
+			<question chapter="6" type="short">
+				<questTitle><![CDATA[Short answer type questions.]]></questTitle>
+				<subq><![CDATA[What are omnivores animals?=What is the role of scavengers?=What do you mean by chewing the cud?=What is a food web?=Why do animals need food?]]></subq>
+				<ans><![CDATA[]]></ans>
+			</question>
+			
+			<question chapter="6" type="longa">
+				<questTitle><![CDATA[Give reasons for the following.]]></questTitle>
+				<subq><![CDATA[What kind of teeth do these animals have? <br/> i. Plant-eating animals <br/> ii.Flesh-eating animals <br/>=What do you understand by ‘chewing the cud’?=Define gnawing the food.=What is food chain? Explain with example.=Describe the classification of animals based on their food habits.=Why do animals need food? Explain your answer.=Explain, how do we get food from both plants and animals?]]></subq>
+				<ans><![CDATA[]]></ans>
+			</question>
+			
+			<question chapter="7" type="tick">
+				<questTitle><![CDATA[Multiple Choice Questions]]></questTitle>
+				<subq><![CDATA[Which of the following give shape to the body? <br />  i. Bones  <br />  ii. Kidneys <br />  iii. Blood vessels <br/> =We smell through this sense organ. <br />  i. Ears  <br />  ii. Nose <br />  iii. Eyes <br />=The adult human skeleton is made of how many bones? <br />  i. 200  <br />  ii. 300  <br />  iii. 206 <br />  =Which of the following help bones in movement? <br />  i. Veins <br />  ii. Arteries  <br />  iii. Muscles  <br />  =Oxygen turns our food into <br />  i. Light  <br />  ii. Energy <br />  iii. Heat ]]></subq>
+				<ans><![CDATA[]]></ans>
+			</question>
+
+			<question chapter="7" type="Tof">
+				<questTitle><![CDATA[True and False.]]></questTitle>
+				<subq><![CDATA[There are eight organ systems in our body.=Organ systems are made up of one organ only.=The heart controls all the organs of our body.=Tissues are made from of a group of similar cells.]]></subq>
+				<ans><![CDATA[]]></ans>
+			</question>
+			
+			<question chapter="7" type="fillblank">
+				<questTitle><![CDATA[Fill in the blanks.]]></questTitle>
+				<subq><![CDATA[Our body is made up of tiny ______ which group together to form a tissue.=The heart pumps __________ to all the parts of the body.=The _________ act as filters and remove waste in the form of urine.=Our ______ captures different smells around us and sends a message to our brain.=Our ______ captures different smells around us and sends a message to our brain.]]></subq>
+				<ans><![CDATA[]]></ans>
+			</question>
+			
+			<question chapter="7" type="match">
+				<questTitle><![CDATA[Match the following.]]></questTitle>
+				<images><![CDATA[ch_7_ex_4.png]]></images>
+				<ans><![CDATA[]]></ans>
+			</question>
+			
+			<question chapter="7" type="short">
+				<questTitle><![CDATA[Short answer type questions.]]></questTitle>
+				<subq><![CDATA[Write one main function of excretory system.=What is an organ?=Write one main function of skeletal system.=What is the role of muscular system?]]></subq>
+				<ans><![CDATA[]]></ans>
+			</question>
+			
+			<question chapter="7" type="longa">
+				<questTitle><![CDATA[Give reasons for the following.]]></questTitle>
+				<subq><![CDATA[What is an organ system? How is an organ system different from a sense organ?=Explain how does the blood flow to every part of our body?=What is the function of the digestive system?=Draw a well-labeled diagram of the excretory system.]]></subq>
+				<ans><![CDATA[]]></ans>
+			</question>
+			
+			<question chapter="8" type="tick">
+				<questTitle><![CDATA[Multiple Choice Questions]]></questTitle>
+				<subq><![CDATA[Which one of the following is not a temporary house? <br />  i. Tent  <br />  ii. Caravan <br />  iii. Houseboat <br/> iv. Hut <br/>=Which of the following can truly protect us from wild animals? <br />  i. Tent   <br />  ii. Caravan  <br />  iii. Straw hut  <br /> iv. None of the above <br/>=Which of the following is a natural fibre?  <br />  i. Lycra   <br />  ii. Rayon   <br />  iii. Polyester <br /> iv. Silk <br/>  =Which of the following methods can help us in keeping our clothes safe? <br />  i. Naphthalene balls <br />  ii. Dried <em>Neem</em> leaves  <br />  iii. Drying in the Sun  <br />  iv. All of the above ]]></subq>
+				<ans><![CDATA[]]></ans>
+			</question>
+
+			<question chapter="8" type="Tof">
+				<questTitle><![CDATA[True and False.]]></questTitle>
+				<subq><![CDATA[Cotton clothes keep us warm by not allowing the body’s heat to escape.=Houseboats are the example of permanent house.=Clothes are woven from fibres.=Nylon is a natural fibre that helps us keep warm.]]></subq>
+				<ans><![CDATA[]]></ans>
+			</question>
+			
+			<question chapter="8" type="fillblank">
+				<questTitle><![CDATA[Fill in the blanks.]]></questTitle>
+				<subq><![CDATA[A _________ is an example of a temporary house.=_________ fibres are made from parts of plants or animals.=Many jawans and scouts live in _______ in their camps.=Cotton clothes are able to absorb ____________.]]></subq>
+				<ans><![CDATA[]]></ans>
+			</question>
+			
+			<question chapter="8" type="match">
+				<questTitle><![CDATA[Match the following.]]></questTitle>
+				<images><![CDATA[ch_8_ex_4.png]]></images>
+				<ans><![CDATA[]]></ans>
+			</question>
+			
+			<question chapter="8" type="short">
+				<questTitle><![CDATA[Short answer type questions]]></questTitle>
+				<subq><![CDATA[Which type of clothes should we wear during summer?=Name a floating house.=Name a waterproof cloth.=Name two natural fibres.]]></subq>
+				<ans><![CDATA[]]></ans>
+			</question>
+			
+			<question chapter="8" type="longa">
+				<questTitle><![CDATA[Give reasons for the following.]]></questTitle>
+				<subq><![CDATA[Why do we need clothes?=Differentiate between <em>kuchcha</em> houses and <em>pucca</em> houses.=What is the function of the digestive system?=Draw a well-labeled diagram of the excretory system.=How is temporary houses different from permanent houses?=What are the differences between natural and synthetic fibres.=List five tasks we should do to take good care of our house.=Describe different types of permanent houses found in cities.=Describe the change in housing styles from the early man's period.]]></subq>
+				<ans><![CDATA[]]></ans>
+			</question>
+			
+			<question chapter="9" type="tick">
+				<questTitle><![CDATA[Multiple Choice Questions]]></questTitle>
+				<subq><![CDATA[What should we always use for crossing the road? <br />  i. Zebra crossing  <br />  ii. Running <br />  iii. Stick <br/> =Which side must always be used for walking and cycling? <br />  i. Right  <br />  ii. Left <br />  iii. Both <br />=This place is not for playing and running. <br />  i. Playground  <br />  ii. Garden  <br />  iii. Classroom <br />  =Which of the following safety rules you must follow at a playground? <br />  i. Do not play near a thorny hedge <br />  ii. Do not run too fast  <br />  iii. Both i. and ii.]]></subq>
+				<ans><![CDATA[]]></ans>
+			</question> 
+
+			<question chapter="9" type="Tof">
+				<questTitle><![CDATA[True and False.]]></questTitle>
+				<subq><![CDATA[There are no safety rules for walking on the road.=Antiseptics stop the growth of germs.=Antiseptics stop the growth of germs.=Medicines must be checked for its expiry date.]]></subq>
+				<ans><![CDATA[]]></ans>
+			</question>
+			
+			<question chapter="9" type="fillblank">
+				<questTitle><![CDATA[Fill in the blanks.]]></questTitle>
+				<subq><![CDATA[If the person has small cuts and wounds, clean them with an _________ lotion.=Playing with matchsticks is __________.=We should not touch ________ gadgets if our hands are wet.=Check for the _______ date before using medicines.]]></subq>
+				<ans><![CDATA[]]></ans>
+			</question>
+			
+			<question chapter="9" type="match">
+				<questTitle><![CDATA[Match the following.]]></questTitle>
+				<images><![CDATA[ch_9_ex_4.png]]></images>
+				<ans><![CDATA[]]></ans>
+			</question>
+					
+			<question chapter="9" type="short">
+				<questTitle><![CDATA[Short answer type questions]]></questTitle>
+				<subq><![CDATA[Why safety measures must be followed in our daily lives?=Give one safety measure that should be followed during crossing the road.=What safety measures should you keep in mind while playing in a playground?=Name the things that should be in a first aid box.]]></subq>
+				<ans><![CDATA[]]></ans>
+			</question>
+			
+			<question chapter="9" type="longa">
+				<questTitle><![CDATA[Give reasons for the following.]]></questTitle>
+				<subq><![CDATA[What can we do to avoid accidents at home?=Why should we not play in classrooms?=What is first aid? Why and when is it necessary?=Write any three safety rules that must be followed at home.=Write two safety rules that must be followed while: <br/> i. taking medicines <br/> ii. cycling <br/>=Explain the correct sequence of first aid to be given when someone gets hurt.]]></subq>
+				<ans><![CDATA[]]></ans>
+			</question>
+			
+			<question chapter="10" type="tick">
+				<questTitle><![CDATA[Multiple Choice Questions]]></questTitle>
+				<subq><![CDATA[Which of the following bird kills small animals like rats? <br />  i. Pigeon  <br />  ii. Parrot <br />  iii. Owl <br/> =These birds have strong legs with three toes in front and one at the back. <br />  i. Wading birds  <br />  ii. Scratching birds <br />  iii. Perching birds <br />=The strong, chisel-shaped beaks of woodpeckers help them to drill through _______. <br />  i. wood  <br />  ii. nuts  <br />  iii. both of these <br />  =Just like us, birds live in homes too. Their homes are called  <br />  i. nests <br />  ii. den  <br />  iii. stable <br/>=Birds like _____ have webbed feet to swim. <br/> i. sparrow <br/> ii. duck <br/> iii. hen]]></subq>
+				<ans><![CDATA[]]></ans>
+			</question> 
+
+			<question chapter="10" type="Tof">
+				<questTitle><![CDATA[True and False.]]></questTitle>
+				<subq><![CDATA[Birds have teeth like us to eat their food.=Birds cannot kill small animals.=Beaks of birds are always hard and short.=A heron eats fish.]]></subq>
+				<ans><![CDATA[]]></ans>
+			</question>
+			
+			<question chapter="10" type="fillblank">
+				<questTitle><![CDATA[Fill in the blanks.]]></questTitle>
+				<subq><![CDATA[The colour pattern of a bird's feather is called the  __________.=Birds are the animals with __________.=Toes of birds have pointed and curved nails known as _______.=Flesh-eating birds like vultures and eagles have strong, sharp claws called _______ .]]></subq>
+				<ans><![CDATA[]]></ans>
+			</question>
+			
+			<question chapter="10" type="match">
+				<questTitle><![CDATA[Match the following.]]></questTitle>
+				<images><![CDATA[ch_10_ex_4.png]]></images>
+				<ans><![CDATA[]]></ans>
+			</question>
+								
+			<question chapter="10" type="short">
+				<questTitle><![CDATA[Short answer type questions.]]></questTitle>
+				<subq><![CDATA[What are the features that help a bird to fly?=Name two birds with broad and flat beak.=What type of beak do vultures have?=How does claws help a bird?=What do you mean by wading birds?]]></subq>
+				<ans><![CDATA[]]></ans>
+			</question>
+			
+			<question chapter="10" type="longa">
+				<questTitle><![CDATA[Give reasons for the following.]]></questTitle>
+				<subq><![CDATA[Why does a duck have strainers in their beaks?=How and why is the beak of a parrot different from that of an eagle?=Why do ducks have webbed feet while vultures do not?=Explain why do birds build nests.]]></subq>
+				<ans><![CDATA[]]></ans>
+			</question>
+			
+			<question chapter="11" type="tick">
+				<questTitle><![CDATA[Multiple Choice Questions.]]></questTitle>
+				<subq><![CDATA[Which unit would you use to measure a door’s height? <br />  i. Metres  <br />  ii. Centimetres <br />  iii. Kilometres <br/> =1 litre is equal to millilitres. <br />  i. 10 <br />  ii. 100 <br />  iii. 1000 <br />=Time is measured by which of the following? <br />  i. Clock  <br />  ii. Scale  <br />  iii. Measuring tape <br />  =Volume of milk is measured in?  <br />  i. litres <br />  ii. kilometres  <br />  iii. milligrams <br/>=We measure temperature using a device known as a <br/> i. thermometer <br/> ii. scale <br/> iii. measuring tape]]></subq>
+				<ans><![CDATA[]]></ans>
+			</question> 
+
+			<question chapter="11" type="Tof">
+				<questTitle><![CDATA[True and False.]]></questTitle>
+				<subq><![CDATA[A ruler in the pencil box is 15 centimetres long.=We measure the mass of large and heavy objects in grams.=We measure temperature in degree Celsius.=Petrol is measured in litres.=Accurate length can be measured without any instrument.]]></subq>
+				<ans><![CDATA[]]></ans>
+			</question>
+			
+			<question chapter="11" type="fillblank">
+				<questTitle><![CDATA[Fill in the blanks.]]></questTitle>
+				<subq><![CDATA[The unit used to measure the distance between two cities is _______.=The unit used to measure the length of your book is _________.=The unit used to measure the amount of water in a jug is ________.=The unit used to measure your weight is __________.]]></subq>
+				<ans><![CDATA[]]></ans>
+			</question>
+			
+			<question chapter="11" type="match">
+				<questTitle><![CDATA[Match the following.]]></questTitle>
+				<images><![CDATA[ch_11_ex_4.png]]></images>
+				<ans><![CDATA[]]></ans>
+			</question>
+			
+			<question chapter="11" type="short">
+				<questTitle><![CDATA[Short answer type questions.]]></questTitle>
+				<subq><![CDATA[Name the units of measurement of length used in earlier times.=What are the standard unit of measuring length, mass and volume?=Show the relationship between the smaller and bigger units of length and mass.=How can you measure the volume of any container by pouring any liquid in it?=Which thermometer is used to measure <br/> i. our body temperature, <br/> ii. maximum and minimum temperatures in a day?]]></subq>
+				<ans><![CDATA[]]></ans>
+			</question>
+			
+			<question chapter="11" type="longa">
+				<questTitle><![CDATA[Give reasons for the following.]]></questTitle>
+				<subq><![CDATA[What is a thermometer? Name its different types and also give uses of each type.=How are hours, minutes and seconds related?=If you have a fever, how can you accurately measure the temperature of your body?=Can we buy things without measuring? Explain with examples.=What does weight of an object tell us? What are the common units of weight measurement? Name the instruments used to measure weight.]]></subq>
+				<ans><![CDATA[]]></ans>
+			</question>
+			
+			<question chapter="12" type="tick">
+				<questTitle><![CDATA[Multiple Choice Questions.]]></questTitle>
+				<subq><![CDATA[The amount of space an object takes up or occupies is called <br />  i. volume  <br />  ii. mass <br />  iii. weight <br/> =To change the state of matter, we must give _____ energy or take away _____ energy from the substance. <br />  i. heat <br />  ii. light <br />  iii. Both i. and ii. <br />=When a gas is converted to liquid on cooling, the process is called <br />  i. condensation  <br />  ii. evaporation  <br />  iii. precipitation <br />  =Substances like sand and chalk powder settle down when added to water. These substances are <br />  i. soluble <br />  ii. insoluble  <br />  iii. miscible <br/>=A boat can float on water and an iron nail cannot because <br/> i. iron is heavy <br/> ii. boat is light <br/> iii. Both i. and ii.]]></subq>
+				<ans><![CDATA[]]></ans>
+			</question> 
+
+			<question chapter="12" type="Tof">
+				<questTitle><![CDATA[True and False.]]></questTitle>
+				<subq><![CDATA[Matter cannot be changed or converted from one form to another.=Temperature is the degree of hotness or coldness of an object.=The process in which a solid changes into liquid state is called freezing.=Cooled water vapour can be seen in the form of droplets on the surface of solid objects.]]></subq>
+				<ans><![CDATA[]]></ans>
+			</question>
+			
+			<question chapter="12" type="fillblank">
+				<questTitle><![CDATA[Fill in the blanks.]]></questTitle>
+				<subq><![CDATA[Anything that has mass and volume is called _________.=The amount of space occupied by an object is called _______.=Matter commonly exists in ________states.=During evaporation, there is a conversion from__________ state to _________ state.=Salt and sugar are __________ in water.]]></subq>
+				<ans><![CDATA[]]></ans>
+			</question>
+			
+			<question chapter="12" type="match">
+				<questTitle><![CDATA[Match the following.]]></questTitle>
+				<images><![CDATA[ch_12_ex_4.png]]></images>
+				<ans><![CDATA[]]></ans>
+			</question>
+			
+			<question chapter="12" type="short">
+				<questTitle><![CDATA[Short answer type questions.]]></questTitle>
+				<subq><![CDATA[What is matter?=What do you mean by evaporation?=Name two properties of matter.=How many states of matter are there? List them.=What do you mean by condensation?]]></subq>
+				<ans><![CDATA[]]></ans>
+			</question>
+			
+			<question chapter="12" type="longa">
+				<questTitle><![CDATA[Give reasons for the following.]]></questTitle>
+				<subq><![CDATA[Classify matter on the basis of solubility in water.=Use a diagram to show the conversion of water to the other two states of matter.=What happens when light falls on a translucent object?=Why does a piece of ice floats on the surface of water while a stone does not?]]></subq>
+				<ans><![CDATA[]]></ans>
+			</question>
+			
+			<question chapter="13" type="tick">
+				<questTitle><![CDATA[Multiple Choice Questions.]]></questTitle>
+				<subq><![CDATA[It is produced by vibrating objects. <br />  i. Shadow  <br />  ii. Sound <br />  iii. Both of these <br/> =Light giving objects are called. <br />  i. Luminous objects <br />  ii. Non-luminous objects <br />  iii. Shadow <br />=Which one of the given sounds is a pleasant one? <br />  i. fire crackers  <br />  ii. Drilling  <br />  iii. musical sound <br />  =Shadow is formed by <br />  i. translucent object <br />  ii. opaque object  <br />  iii. transparent object <br/>=What is applied when you push or pull something? <br/> i. Force <br/> ii. Sound <br/> iii. Light]]></subq>
+				<ans><![CDATA[]]></ans>
+			</question> 
+
+			<question chapter="13" type="Tof">
+				<questTitle><![CDATA[True and False.]]></questTitle>
+				<subq><![CDATA[Sounds are always pleasant.=All objects in our surroundings are luminous.=Opaque objects make shadows.=We cannot see the objects when light falls on them.]]></subq>
+				<ans><![CDATA[]]></ans>
+			</question>
+			
+			<question chapter="13" type="fillblank">
+				<questTitle><![CDATA[Fill in the blanks.]]></questTitle>
+				<subq><![CDATA[The ___________________ gives us light.=Pen, table, pencil, fan and paper are ________ objects.=_________ are formed when an object blocks (stops) the path of light.=Our tongue helps us produce __________.]]></subq>
+				<ans><![CDATA[]]></ans>
+			</question>
+			
+			<question chapter="13" type="match">
+				<questTitle><![CDATA[Match the following.]]></questTitle>
+				<images><![CDATA[ch_13_ex_4.png]]></images>
+				<ans><![CDATA[]]></ans>
+			</question>
+								
+			<question chapter="13" type="short">
+				<questTitle><![CDATA[Short answer type questions.]]></questTitle>
+				<subq><![CDATA[Define Force.=What are non-luminous objects?=What are opaque objects?=What are luminous objects?]]></subq>
+				<ans><![CDATA[]]></ans>
+			</question>
+			
+			<question chapter="13" type="longa">
+				<questTitle><![CDATA[Give reasons for the following.]]></questTitle>
+				<subq><![CDATA[Explain the difference between a paper and a piece of glass with reference to passage of light.=Explain the difference between a paper and a piece of glass with reference to passage of light.=Explain formation of a shadow.=Why is light important for us? Explain with examples.=Define force with a suitable example.]]></subq>
+				<ans><![CDATA[]]></ans>
+			</question>
+			
+		</questions>		
+	</data>
